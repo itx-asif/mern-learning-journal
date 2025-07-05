@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML5 & CSS Cheatsheet</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        h1,
+        h2 {
+            color: #2F2A76;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 3rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        th {
+            background-color: #F4400D;
+            color: #2F2A76;
+        }
+
+        code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+  display: block;
+            white-space: pre-wrap;
+        }
+
+        .tag {
+            font-weight: bold;
+            color: #D4370B;
+        }
+
+        .desc {
+            max-width: 350px;
+        }
+
+
+        @media (max-width: 768px) {
+
+            table,
+            thead,
+            tbody,
+            th,
+            td,
+            tr {
+                display: block;
+            }
+
+            th {
+                position: sticky;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📘 HTML5 & CSS Cheatsheet</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Element</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                <td class="desc">Defines the document type and HTML version.</td>
+                <td class="example">
+                    <code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Document Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Document body here
+  &lt;/body&gt;
+&lt;/html&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;a href="path"&gt;</td>
+                <td class="desc">Creates a hyperlink to another page.</td>
+                <td class="example">
+                    <code>&lt;a href="https://www.ibm.com"&gt;IBM&lt;/a&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;article&gt;</td>
+                <td class="desc">A self-contained piece of content.</td>
+                <td class="example">
+                    <code>&lt;article class="CSS-Style-Reference"&gt;
+  &lt;h2&gt;HTML&lt;/h2&gt;
+  &lt;p&gt;HTML stands for Hypertext Markup Language.&lt;/p&gt;
+&lt;/article&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;aside&gt;</td>
+                <td class="desc">Content related to the main content.</td>
+                <td class="example">
+                    <code>&lt;aside&gt;
+  Use the aside tag for tangential content.
+&lt;/aside&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;body&gt;</td>
+                <td class="desc">Contains visible page content.</td>
+                <td class="example">
+                    <code>&lt;body&gt;
+  Document body here
+&lt;/body&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;div&gt;</td>
+                <td class="desc">Generic block-level container for styling.</td>
+                <td class="example">
+                    <code>&lt;div&gt;
+  Content inside a div
+&lt;/div&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;form&gt; + &lt;fieldset&gt;</td>
+                <td class="desc">Form for user input, with grouped fields.</td>
+                <td class="example">
+                    <code>&lt;form action="/submit"&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;User Info&lt;/legend&gt;
+    &lt;input type="text" name="name"&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;figure&gt; &amp; &lt;figcaption&gt;</td>
+                <td class="desc">Image with caption.</td>
+                <td class="example">
+                    <code>&lt;figure&gt;
+  &lt;img src="img.jpg"&gt;
+  &lt;figcaption&gt;Caption text&lt;/figcaption&gt;
+&lt;/figure&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;header&gt;</td>
+                <td class="desc">Introductory section of a page.</td>
+                <td class="example">
+                    <code>&lt;header&gt;
+  &lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;/header&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;img&gt;</td>
+                <td class="desc">Displays an image on the page.</td>
+                <td class="example">
+                    <code>&lt;img src="image.jpg" width="300" height="200"&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;input&gt;</td>
+                <td class="desc">Used for user data entry.</td>
+                <td class="example">
+                    <code>&lt;input type="text" name="username"&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;link&gt;</td>
+                <td class="desc">Link an external CSS file.</td>
+                <td class="example">
+                    <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;nav&gt;</td>
+                <td class="desc">Container for navigation links.</td>
+                <td class="example">
+                    <code>&lt;nav&gt;
+  &lt;a href=\"index.html\"&gt;Home&lt;/a&gt;
+&lt;/nav&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;ol&gt; &amp; &lt;ul&gt;</td>
+                <td class="desc">Ordered and unordered lists.</td>
+                <td class="example">
+                    <code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;/ul&gt;
+&lt;ol&gt;&lt;li&gt;First&lt;/li&gt;&lt;/ol&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;script&gt;</td>
+                <td class="desc">Embeds or references JavaScript.</td>
+                <td class="example">
+                    <code>&lt;script&gt;
+  alert('Hello');
+&lt;/script&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;style&gt;</td>
+                <td class="desc">Internal CSS definitions.</td>
+                <td class="example">
+                    <code>&lt;style&gt;
+  p { color: red; }
+&lt;/style&gt;</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;table&gt;</td>
+                <td class="desc">Defines a table structure.</td>
+                <td class="example">
+                    <code>&lt;table&gt;
+  &lt;tr&gt;&lt;th&gt;H1&lt;/th&gt;&lt;th&gt;H2&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;td&gt;Data&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</code>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
