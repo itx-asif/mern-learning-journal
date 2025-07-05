@@ -12,7 +12,7 @@ A comprehensive **MERN (MongoDB, Express.js, React, Node.js)** learning journal 
 
 | Section | Description |
 |--------|-------------|
-| [Introduction to HTML](./Introduction%20to%20Html/Readme.md) | Learn the fundamentals of HTML and HTML5 with styled notes and examples. |
+| [Introduction to HTML](./Introduction%20to%20Html) | Learn the fundamentals of HTML and HTML5 with notes and examples. |
 | [CSS Basics](./css-guide/README.md) | Understand how to style your webpages using modern CSS. *(Coming soon)* |
 | [JavaScript Essentials](./javascript-guide/README.md) | Dive into JavaScript basics, DOM, and ES6+. *(Coming soon)* |
 | [React.js](./react-guide/README.md) | Learn to build interactive UIs using React components and hooks. *(Coming soon)* |
