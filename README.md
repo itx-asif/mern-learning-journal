@@ -33,12 +33,5 @@ A comprehensive **MERN (MongoDB, Express.js, React, Node.js)** learning journal 
 ## 🧑‍💻 Maintained By
 
 **Asif Raza**  
-Frontend Developer | MERN Stack Learner  
-📍 Islamabad, Pakistan  
-🛠️ Passionate about clean code, UI/UX, and open-source contributions
 
 ---
-
-## 📌 License
-
-This project is open-source under the [MIT License](./LICENSE).
